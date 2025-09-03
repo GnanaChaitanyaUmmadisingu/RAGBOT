@@ -1,0 +1,68 @@
+{
+  "docs": [
+    {
+      "tenant_id": "adhub",
+      "source": "Adhub Handbook",
+      "section": "Campaigns",
+      "doc_type": "guide",
+      "version": "v1",
+      "content": "Your real documentation goes here..."
+    },
+    {
+      "tenant_id": "adhub",
+      "source": "SelfServe Portal",
+      "section": "Campaign Creation",
+      "doc_type": "guide",
+      "version": "v1",
+      "content": "To create a campaign, log into the SelfServe Portal and navigate to the 'Create Campaign' button on the top-right corner. Enter the campaign name, objective (e.g., Awareness, Traffic, Conversions), budget, and schedule. You must also select your target audience by location, age, gender, and interest categories. Once all fields are completed, click 'Save & Continue' to proceed to ad setup."
+    },
+    {
+      "tenant_id": "adhub",
+      "source": "SelfServe Portal",
+      "section": "Ad Setup",
+      "doc_type": "guide",
+      "version": "v1",
+      "content": "During ad setup, you can upload creatives in image, video, or carousel format. Supported image ratio is 1:1 or 16:9. Maximum video length is 60 seconds. Headlines are limited to 60 characters and descriptions to 100 characters. A preview will show how your ad will appear across desktop and mobile placements."
+    },
+    {
+      "tenant_id": "adhub",
+      "source": "SelfServe Portal",
+      "section": "Budget & Bidding",
+      "doc_type": "faq",
+      "version": "v1",
+      "content": "Budgets can be set at either the campaign or ad group level. Minimum daily budget is $10. You can choose between Automatic Bidding, where the system optimizes for the lowest cost per result, or Manual Bidding, where you set a maximum bid per impression or click."
+    },
+    {
+      "tenant_id": "adhub",
+      "source": "SelfServe Portal",
+      "section": "Reporting & Analytics",
+      "doc_type": "guide",
+      "version": "v1",
+      "content": "To view campaign performance, go to the Reporting tab. Metrics available include impressions, clicks, CTR, conversions, and cost per conversion. Reports can be filtered by date range, device type, or audience segment. You can also export results to CSV or schedule automated reports via email."
+    },
+    {
+      "tenant_id": "adhub",
+      "source": "SelfServe Portal",
+      "section": "Billing & Payments",
+      "doc_type": "faq",
+      "version": "v1",
+      "content": "Payments can be made via credit card, PayPal, or bank transfer. Invoices are generated at the end of each billing cycle and available for download in the Billing tab. If a payment fails, campaigns will be paused until the balance is cleared."
+    },
+    {
+      "tenant_id": "adhub",
+      "source": "SelfServe Portal",
+      "section": "Campaign Optimization",
+      "doc_type": "best_practice",
+      "version": "v1",
+      "content": "For best results, use at least 3 different creative variations per ad group. Refresh creatives every 14 days to avoid ad fatigue. Test different audience segments to identify top-performing demographics. Use A/B testing on headlines and call-to-action buttons."
+    },
+    {
+      "tenant_id": "adhub",
+      "source": "SelfServe Portal",
+      "section": "Support",
+      "doc_type": "faq",
+      "version": "v1",
+      "content": "If you encounter issues with campaign creation or billing, visit the Support tab in the portal. You can browse common troubleshooting guides or submit a ticket. Response time for standard support is within 24 hours. Premium accounts receive priority support within 4 hours."
+    }
+  ]
+}

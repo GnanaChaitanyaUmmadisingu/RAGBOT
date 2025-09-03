@@ -1,0 +1,84 @@
+{
+  "docs": [
+    {
+      "tenant_id": "adhub",
+      "source": "SelfServe Portal",
+      "section": "Login & Account Access",
+      "doc_type": "guide",
+      "version": "v1",
+      "content": "To access the SelfServe Portal, navigate to portal.adhub.com. Click 'Login' and enter your registered email and password. If you have enabled two-factor authentication, you will be prompted to enter a verification code sent to your phone or email. New users can sign up by clicking 'Create Account' and verifying their email. Passwords must contain at least 8 characters, including one uppercase letter, one number, and one special character."
+    },
+    {
+      "tenant_id": "adhub",
+      "source": "SelfServe Portal",
+      "section": "Minimum Budget Requirements",
+      "doc_type": "faq",
+      "version": "v1",
+      "content": "The minimum daily budget for campaigns is $10, while the minimum lifetime budget is $100. Campaigns with budgets below the minimum threshold will not be activated. Budgets can be distributed across ad groups, but each ad group must have at least $5 daily allocated to ensure delivery."
+    },
+    {
+      "tenant_id": "adhub",
+      "source": "SelfServe Portal",
+      "section": "Ad Requirements",
+      "doc_type": "guide",
+      "version": "v1",
+      "content": "All ads must comply with the Adhub Advertising Policies. Image ads must be in JPEG or PNG format with a resolution of at least 1080x1080. Video ads should not exceed 60 seconds and must be under 100MB. Text requirements: headline max 60 characters, description max 100 characters. Ads must not contain misleading claims, prohibited content, or excessive text overlay (more than 20% of the image)."
+    },
+    {
+      "tenant_id": "adhub",
+      "source": "SelfServe Portal",
+      "section": "Audience Targeting",
+      "doc_type": "guide",
+      "version": "v1",
+      "content": "During campaign creation, advertisers can define audiences by age, gender, location, language, interests, and device type. Audience exclusions can also be applied, e.g., exclude existing customers. You may upload a custom audience list in CSV format (email or phone numbers). The system will generate a 'match rate' indicating how many users were successfully mapped to the Adhub ecosystem."
+    },
+    {
+      "tenant_id": "adhub",
+      "source": "SelfServe Portal",
+      "section": "User-Centric Audience Strategy",
+      "doc_type": "best_practice",
+      "version": "v1",
+      "content": "For better performance, use 'lookalike audiences' generated from your customer list. This allows the system to identify users with similar behaviors and interests. Segment audiences by intent—awareness, consideration, and conversion. Retarget users who previously interacted with your brand for higher ROI. Always layer demographics with interests to refine targeting."
+    },
+    {
+      "tenant_id": "adhub",
+      "source": "SelfServe Portal",
+      "section": "Ad Optimization",
+      "doc_type": "best_practice",
+      "version": "v1",
+      "content": "Optimize ads by testing multiple creative variations per ad group. Use A/B testing for headlines, CTAs, and media formats. Monitor CTR and conversion rates weekly. Pause underperforming ads and allocate more budget to high-performing ones. Keep frequency below 5 impressions per user per week to reduce ad fatigue. Use automated rules to increase bids when CTR is above 2%."
+    },
+    {
+      "tenant_id": "adhub",
+      "source": "SelfServe Portal",
+      "section": "Reporting Tab Overview",
+      "doc_type": "guide",
+      "version": "v1",
+      "content": "The Reporting tab provides a dashboard view of all campaigns. Core metrics include Views, Impressions, Clicks, CTR, Conversions, Match Rate, Spend, and Budget Utilization. Charts display performance trends by date range, placement, and audience. Users can toggle between campaign-level and ad group-level reporting. Filters are available for time period, device type, and audience segment."
+    },
+    {
+      "tenant_id": "adhub",
+      "source": "SelfServe Portal",
+      "section": "Insights & Analysis",
+      "doc_type": "guide",
+      "version": "v1",
+      "content": "The Insights panel within Reporting provides actionable recommendations. For example, if match rate is below 50%, it suggests uploading a cleaner audience list. If CTR drops, it recommends refreshing creatives. Budget pacing insights show whether you are overspending or underspending relative to your campaign goals. Export reports as CSV or schedule automated email delivery."
+    },
+    {
+      "tenant_id": "adhub",
+      "source": "SelfServe Portal",
+      "section": "Troubleshooting Login",
+      "doc_type": "faq",
+      "version": "v1",
+      "content": "If you cannot log in, first reset your password using the 'Forgot Password' link. Check that your browser allows cookies and JavaScript. If two-factor authentication fails, request a new code. For repeated issues, contact Adhub Support with your registered email ID. Account lockouts occur after 5 failed attempts and reset after 30 minutes."
+    },
+    {
+      "tenant_id": "adhub",
+      "source": "SelfServe Portal",
+      "section": "Budget Allocation Tips",
+      "doc_type": "best_practice",
+      "version": "v1",
+      "content": "Distribute budget strategically: allocate 70% to your top-performing audience, 20% to experimental segments, and 10% to retargeting. Review pacing daily to ensure the budget lasts the entire campaign duration. Avoid spreading budgets too thin across too many ad groups. Consider increasing budget gradually for scaling instead of large jumps."
+    }
+  ]
+}

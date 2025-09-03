@@ -1,0 +1,42 @@
+version: "3.9"
+services:
+  db:
+    image: pgvector/pgvector:pg16
+    container_name: adhub_db
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+      POSTGRES_DB: adhub
+    ports:
+      - "5433:5432"
+    volumes:
+      - db_data:/var/lib/postgresql/data
+
+  backend:
+    build: ./backend
+    container_name: adhub_backend
+    environment:
+      NODE_ENV: production
+      PORT: 8080
+      OPENAI_API_KEY: ${OPENAI_API_KEY}
+      OPENAI_CHAT_MODEL: ${OPENAI_CHAT_MODEL:-gpt-4o-mini}
+      OPENAI_EMBED_MODEL: ${OPENAI_EMBED_MODEL:-text-embedding-3-small}
+      DATABASE_URL: postgresql://postgres:postgres@db:5432/adhub
+      RAG_TOP_K: "5"
+      RAG_THRESHOLD: "0.78"
+      SEED_ON_START: "false"
+    depends_on:
+      - db
+    ports:
+      - "8080:8080"
+
+  frontend:
+    build: ./frontend
+    container_name: adhub_frontend
+    depends_on:
+      - backend
+    ports:
+      - "3000:80"
+
+volumes:
+  db_data:

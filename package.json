@@ -1,0 +1,31 @@
+{
+  "name": "ragbot2026",
+  "version": "1.0.0",
+  "description": "RAG Chatbot with React + Node + PostgreSQL + OpenAI",
+  "scripts": {
+    "start": "docker compose up -d --build",
+    "stop": "docker compose down",
+    "restart": "docker compose restart",
+    "logs": "docker compose logs -f",
+    "reseed": "./reseed.sh",
+    "reseed:quick": "docker compose exec backend node dist/cli/seed.js && curl -X POST http://localhost:8080/v1/ingest -H 'Content-Type: application/json' -d @docs/sample.json && curl -X POST http://localhost:8080/v1/ingest -H 'Content-Type: application/json' -d @docs/additional_docs.json",
+    "test": "curl -X POST http://localhost:8080/v1/chat -H 'Content-Type: application/json' -d '{\"message\": \"How do I create a campaign?\", \"user\": {\"tenant_id\": \"adhub\"}}'",
+    "status": "docker compose ps",
+    "clean": "docker compose down -v && docker system prune -f",
+    "dev:backend": "cd backend && npm run dev",
+    "dev:frontend": "cd frontend && npm run dev",
+    "build": "docker compose build",
+    "open": "open http://localhost:3000"
+  },
+  "keywords": [
+    "rag",
+    "chatbot",
+    "openai",
+    "postgresql",
+    "react",
+    "typescript",
+    "docker"
+  ],
+  "author": "Your Name",
+  "license": "MIT"
+}
